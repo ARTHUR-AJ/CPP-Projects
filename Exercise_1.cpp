@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     srand(time(0));
     int randomNumber = (rand()%11);
-    cout<<randomNumber<<endl;
+ 
 
   if(randomNumber==0){
         cout<<"Your subscription has expired"<<endl;
